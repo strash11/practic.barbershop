@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+  background-color: #282828;
+  background:  url("../img/BG.jpg")  ;
+  background-position: 50% 0px;
+  background-size: cover;
+  position: relative;
+}
+.wrappler {
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+}
+.header {
+ 
+  margin: 0 auto; 
+  background: black  ;
+}
+.nav {
+  width: 932px;
+  margin: 0 auto;
+}
+.nav__list {
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.nav__hover {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 1s;
+  border-bottom: 1px solid black;
+}
+.nav__hover:hover {
+  border-bottom: 3px solid #826550;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.35s;
+}
+.nav__join {
+  word-spacing: 10px;
+  margin-left: 138px;
+}
+
+.nav__hover_active {
+}
+
+.content{
+  /* padding-top: 457px; */
+  /* padding-top: 650px; */
+  padding-top: 493px;
+}
+.benefit {
+}
+.benefit__header {
+}
+.benefit__text {
+}
+.benefit__footer {
+}
+.achivmets {
+}
+.achivments__logo {
+}
+.achivments__header {
+}
+.achivments__text {
+}
